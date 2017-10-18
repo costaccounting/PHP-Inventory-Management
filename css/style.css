@@ -1,0 +1,62 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 3-Aug-2017, 3:19:58 PM
+    Author     : prodip
+*/
+body{text-align: center;}
+#login, #register{
+    
+    display: inline-block; 
+    border: thin solid black;
+    border-radius: 10px;
+    position: relative;
+    width: 30%;
+    top: 50%;
+    padding: 2% 0 0;
+    margin: auto;
+    background: #f2f2f2;
+    border: 0;
+    box-sizing: border-box;
+    
+}
+#register input, #login input {
+    outline: 0;
+    background: white;
+    border: 0;
+    margin: auto;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+#register button, #login button{
+  background: #4FAF40;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 12px;
+  cursor: pointer;
+} 
+
+#listTable table{
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin: auto;
+    
+}
+#listTable th, #listTable td {
+    padding-left: 15px;
+    padding: 10px; 
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    min-width: 100px;
+}
+#listTable  th {
+    background-color: #4CAF50;
+    color: white;
+}
+#listTable tr:hover {background-color: #5d5e5e;}
+
